@@ -1,0 +1,14 @@
+:root {
+  --bs-body-font-family: "Poppins", sans-serif;
+  --grey-color: #808080;
+}
+
+#search-form button {
+  border-color: var(--grey-color);
+  color: var(--grey-color);
+}
+
+#search-bar {
+  color: var(--grey-color);
+  border-color: var(--grey-color);
+}
