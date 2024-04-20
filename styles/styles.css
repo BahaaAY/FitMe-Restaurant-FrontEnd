@@ -1,14 +1,26 @@
 :root {
   --bs-body-font-family: "Poppins", sans-serif;
   --grey-color: #808080;
+  --black-color: #202020;
 }
 
 #search-form button {
   border-color: var(--grey-color);
   color: var(--grey-color);
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
 #search-bar {
   color: var(--grey-color);
   border-color: var(--grey-color);
+  border-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#signInBtn {
+  border-radius: 10px;
+  background-color: #202020;
 }
