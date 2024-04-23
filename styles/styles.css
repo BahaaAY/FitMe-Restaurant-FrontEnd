@@ -2,8 +2,16 @@
   --bs-body-font-family: "Poppins", sans-serif;
   --grey-color: #808080;
   --black-color: #202020;
+  --orange-color: #fc8019;
+  --card-bg: #f8f8f8;
 }
 
+* {
+  box-sizing: border-box;
+}
+.spacer {
+  flex-grow: 1;
+}
 #search-form button {
   border-color: var(--grey-color);
   color: var(--grey-color);
@@ -23,4 +31,39 @@
 #signInBtn {
   border-radius: 10px;
   background-color: #202020;
+}
+
+.orange-text {
+  color: var(--orange-color);
+}
+
+.hero {
+  margin-top: 100px;
+}
+
+.cities-list {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.cities-list li {
+  margin-right: 20px;
+}
+
+.cities-list li:nth-child(even) {
+  color: var(--orange-color);
+}
+
+.hero-emoji {
+  display: inline-block;
+}
+
+.featured {
+  margin-top: 100px;
+}
+
+.item-card {
+  background-color: var(--card-bg);
 }
