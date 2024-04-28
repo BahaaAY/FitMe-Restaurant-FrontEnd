@@ -35,7 +35,8 @@
     <title>Product</title>
   </head>
   <body>
-    <div class="container mt-4 body-margin">
+    <!--Nav Start-->
+    <div class="container mt-4 mb-4">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand fw-bold" href="#"
@@ -81,54 +82,141 @@
         </div>
       </nav>
     </div>
-    <!--Footer Section Start-->
-    <footer
-      class="d-flex justify-content-center align-items-center flex-wrap align-content-center"
-    >
-      <div
-        class="footer-content body-margin d-flex justify-content-between w-100 flex-wrap"
-      >
-        <a class="navbar-brand fw-bold" href="#"
-          ><img
-            src="assets/icons/logo.svg"
-            class="me-2 w-25 white-logo"
-          />FitMe</a
-        >
+    <!--Nav End-->
 
-        <ul class="d-flex list-unstyled justify-content-between p-0 m-0">
-          <li>
-            <a href="#" class="footer-link">About Us</a>
-          </li>
-          <li>
-            <a href="#" class="footer-link">Delivery</a>
-          </li>
-          <li>
-            <a href="#" class="footer-link">Help & Support</a>
-          </li>
-          <li>
-            <a href="#" class="footer-link">T&C</a>
-          </li>
-        </ul>
-        <a href="tel:01123456" class="footer-link">Contact: +961 01 123 456</a>
+    <!--Product Section Start-->
+
+    <section class="product">
+      <div class="product-header container-fluid position-relative">
+        <div class="product-header-content container py-4">
+          <div class="row">
+            <div class="product-img-container col-lg-3 col-5 overflow-hidden">
+              <img src="assets/images/rec2.png" class="w-100 h-100 rounded-3" />
+            </div>
+            <div class="col ms-4 col-lg-5 col-6">
+              <h1 class="product-title fw-semibold">Falafel - Meals</h1>
+              <p class="product-location fw-light">Beirut</p>
+              <div class="product-details d-flex w-100 justify-content-between">
+                <div class="">
+                  <p class="product-rating py-0 my-0">
+                    <i class="fa-solid fa-star" style="color: #54d678"></i> 4.0
+                  </p>
+                  <p>100+ Ratings</p>
+                </div>
+                <div class="vertical-divider"></div>
+                <div class="">
+                  <p class="product-time py-0 my-0">30 Mins</p>
+                  <p>Delivery Time</p>
+                </div>
+                <div class="vertical-divider"></div>
+                <div class="">
+                  <p class="product-price py-0 my-0">$10</p>
+                  <p>Cost for two</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="offer-container p-4 align-self-center d-flex justify-content-center align-items-start flex-column col-lg-3 col-4"
+            >
+              <p class="">Offers</p>
+              <div class="">
+                <p>
+                  <img src="assets/icons/off.svg" class="me-2" />50% off up to
+                  $10 | Use code TRYNEW
+                </p>
+              </div>
+              <div class="">
+                <p>
+                  <img src="assets/icons/off.svg" class="me-2" /> 20% off | Use
+                  code PARTY
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="search-dish row position-absolute w-100">
+          <div class="col-lg-5 col-md-10 col-sm-10 col-9">
+            <form action="">
+              <div class="input-group m-0">
+                <input
+                  data-aos-duration="1000"
+                  data-aos="fade-up"
+                  type="text"
+                  class="form-control"
+                  placeholder="Search for dish"
+                  aria-label="Username"
+                  aria-describedby="basic-addon1"
+                />
+                <span
+                  data-aos-duration="1000"
+                  data-aos="fade-up"
+                  class="input-group-text"
+                  id="basic-addon1"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></span>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
-      <div class="footer-socials">
-        <ul class="d-flex list-unstyled p-0 m-0 mt-4">
-          <li>
-            <a href="#"
-              ><img src="assets/icons/fb.svg" alt="Facebook logo"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="assets/icons/instagram.svg" alt="instagram logo"
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="assets/icons/twitter.svg" alt="Twitter logo"
-            /></a>
-          </li>
-        </ul>
+    </section>
+
+    <!--Product Section End-->
+
+    <!--Footer Section Start-->
+    <footer>
+      <div class="container h-100">
+        <div
+          class="footer-body d-flex justify-content-center align-items-center flex-wrap align-content-center h-100"
+        >
+          <div
+            class="footer-content d-flex justify-content-between w-100 flex-wrap"
+          >
+            <a class="navbar-brand fw-bold" href="#"
+              ><img
+                src="assets/icons/logo.svg"
+                class="me-2 w-25 white-logo"
+              />FitMe</a
+            >
+
+            <ul class="d-flex list-unstyled justify-content-between p-0 m-0">
+              <li>
+                <a href="#" class="footer-link">About Us</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Delivery</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">Help & Support</a>
+              </li>
+              <li>
+                <a href="#" class="footer-link">T&C</a>
+              </li>
+            </ul>
+            <a href="tel:01123456" class="footer-link"
+              >Contact: +961 01 123 456</a
+            >
+          </div>
+          <div class="footer-socials">
+            <ul class="d-flex list-unstyled p-0 m-0 mt-4">
+              <li>
+                <a href="#"
+                  ><img src="assets/icons/fb.svg" alt="Facebook logo"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="assets/icons/instagram.svg" alt="instagram logo"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="assets/icons/twitter.svg" alt="Twitter logo"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
     <!--Footer Section End-->

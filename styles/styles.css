@@ -132,7 +132,7 @@ footer {
   margin-top: auto;
   background-color: var(--orange-color);
   color: white;
-  height: 300px;
+  height: 30vh;
   width: 100%;
 }
 
@@ -151,4 +151,43 @@ footer ul li:last-child {
 footer a {
   color: white;
   text-decoration: none;
+}
+
+.product-header {
+  width: 100%;
+  background-color: var(--black-color);
+}
+
+.product-header-content {
+  color: white;
+}
+.product-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-title {
+  color: white;
+}
+.product-location {
+  color: white;
+  font-size: 16px;
+}
+
+.vertical-divider {
+  width: 1px;
+  height: 55px;
+  background-color: white;
+  color: white;
+  border-radius: 5px;
+}
+.offer-container {
+  border: 1px solid var(--orange-color);
+  border-radius: 12px;
+  border-style: dashed;
+}
+
+.search-dish {
+  bottom: -25px;
 }
