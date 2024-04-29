@@ -189,5 +189,38 @@ footer a {
 }
 
 .search-dish {
-  bottom: -25px;
+  bottom: -20px;
+  margin-left: auto;
+}
+.product-cart-divider {
+  width: 1px;
+  height: 100%;
+  margin-left: auto;
+  background-color: var(--black-color);
+  border-radius: 5px;
+}
+.add-to-cart-btn {
+  background-color: white;
+  color: #1ac84b;
+  padding: 10px 20px;
+  border: none;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cart {
+  margin: 100px 0px;
+}
+.checkoutBTN {
+  background-color: var(--orange-color);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.sidebar-list li {
+  margin-bottom: 20px;
 }

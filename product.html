@@ -134,7 +134,9 @@
             </div>
           </div>
         </div>
-        <div class="search-dish row position-absolute w-100">
+        <div
+          class="search-dish row position-absolute w-100 d-flex justify-content-center"
+        >
           <div class="col-lg-5 col-md-10 col-sm-10 col-9">
             <form action="">
               <div class="input-group m-0">
@@ -157,11 +159,129 @@
               </div>
             </form>
           </div>
+          <div class="col-3">
+            <button
+              data-aos-duration="1000"
+              data-aos="fade-up"
+              class="btn btn-light d-flex"
+            >
+              <img src="assets/icons/star-outline.svg" class="me-1" />
+              Favorite
+            </button>
+          </div>
         </div>
       </div>
     </section>
 
     <!--Product Section End-->
+
+    <!--Product Cart Section Start-->
+    <section class="cart">
+      <div class="container py-2">
+        <div class="row">
+          <aside class="col-3 d-flex">
+            <ul class="sidebar-list list-unstyled p-0 m-0">
+              <li>Recommended</li>
+              <li>Breakfast Box</li>
+              <li>Lunch Box</li>
+              <li>Combo Box</li>
+              <li>Meals</li>
+              <li>Drinks</li>
+            </ul>
+            <div class="product-cart-divider"></div>
+          </aside>
+          <div class="col-5">
+            <div class="row">
+              <div class="col-7">
+                <p class="fw-bold">Brunch for 2 - Veg (Save upto 4$)</p>
+                <p class="fw-normal">16$ - only</p>
+                <p class="fw-light">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                  maxime minus accusamus ab cum tenetur vero cumque, aut
+                  mollitia, facilis odio illum?
+                </p>
+              </div>
+              <div class="col-5">
+                <div class="position-relative">
+                  <button
+                    class="add-to-cart-btn btn btn-light position-absolute w-50 shadow-lg"
+                  >
+                    Add +
+                  </button>
+                  <div class="rounded-3 overflow-hidden">
+                    <img src="assets/images/rec2.png" class="w-100" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="row justify-content-between align-items-baseline">
+              <div class="col-auto">
+                <h4>Cart</h4>
+              </div>
+              <div class="col-auto">
+                <p>2 items</p>
+              </div>
+            </div>
+            <div class="cart-item my-5 row justify-content-between">
+              <div class="col-6">
+                <p class="mb-0 fw-medium">Bunch for 2 -Veg</p>
+                <p class="fs-6 fw-light">16$</p>
+              </div>
+              <div class="col-auto">
+                <div class="row align-items-baseline">
+                  <div class="col-auto">
+                    <button class="btn btn-light">-</button>
+                  </div>
+                  <div class="col-auto">
+                    <p>1</p>
+                  </div>
+                  <div class="col-auto">
+                    <button class="btn btn-light">+</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cart-item my-5 row justify-content-between">
+              <div class="col-6">
+                <p class="mb-0 fw-medium">Shawarma Sandwich</p>
+                <p class="fs-6 fw-light">4$</p>
+              </div>
+              <div class="col-auto">
+                <div class="row align-items-baseline">
+                  <div class="col-auto">
+                    <button class="btn btn-light">-</button>
+                  </div>
+                  <div class="col-auto">
+                    <p>1</p>
+                  </div>
+                  <div class="col-auto">
+                    <button class="btn btn-light">+</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-between mt-5">
+              <div class="col-auto">
+                <h4>Subtotal</h4>
+                <p class="text-light-emphasis fw-light">
+                  Extra charges may apply
+                </p>
+              </div>
+              <div class="col-auto">
+                <h4>20$</h4>
+              </div>
+            </div>
+            <button class="checkoutBTN btn btn-dark w-100 mt-5 py-3 rounded-">
+              Checkout
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Product Cart Section End-->
 
     <!--Footer Section Start-->
     <footer>
