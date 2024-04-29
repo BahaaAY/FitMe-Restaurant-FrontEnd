@@ -333,3 +333,52 @@ footer a {
   filter: brightness(0) saturate(100%) invert(99%) sepia(9%) saturate(2%)
     hue-rotate(307deg) brightness(117%) contrast(100%);
 }
+
+.sub-item {
+  border-bottom: 1px solid var(--grey-color);
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.sub-item:hover {
+  color: var(--orange-color);
+  border-bottom: 1px solid var(--orange-color);
+}
+
+.time-item {
+  border-bottom: 1px solid var(--grey-color);
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.time-item:hover {
+  color: var(--orange-color);
+  border-bottom: 1px solid var(--orange-color);
+}
+.time-item:hover > p > img {
+  filter: brightness(0) saturate(100%) invert(55%) sepia(76%) saturate(1260%)
+    hue-rotate(345deg) brightness(97%) contrast(105%);
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
