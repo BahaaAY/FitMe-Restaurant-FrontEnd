@@ -183,8 +183,8 @@ footer {
   background-color: var(--orange-color);
   color: white;
   height: fit-content;
-  padding: 22px 0px;
   width: 100%;
+  padding: 110px 0px;
 }
 
 footer .white-logo {
@@ -296,4 +296,40 @@ footer a {
   text-decoration: none;
   color: var(--orange-color);
   font-weight: medium;
+}
+
+/** Checkout Page */
+
+.address-item {
+  cursor: pointer;
+  padding: 20px 30px;
+  border: 1px dashed var(--orange-color);
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+}
+.address-item:hover {
+  background-color: var(--orange-color);
+  color: white;
+}
+.address-item:hover > img {
+  filter: brightness(0) saturate(100%) invert(99%) sepia(9%) saturate(2%)
+    hue-rotate(307deg) brightness(117%) contrast(100%);
+}
+
+.order-type-item {
+  text-align: center;
+  cursor: pointer;
+  border: 1px dashed var(--orange-color);
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+}
+
+.order-type-item:hover {
+  background-color: var(--orange-color);
+  color: white;
+}
+
+.order-type-item:hover > p > img {
+  filter: brightness(0) saturate(100%) invert(99%) sepia(9%) saturate(2%)
+    hue-rotate(307deg) brightness(117%) contrast(100%);
 }
