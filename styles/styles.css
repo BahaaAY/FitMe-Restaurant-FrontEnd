@@ -224,3 +224,24 @@ footer a {
 .sidebar-list li {
   margin-bottom: 20px;
 }
+
+/* Search View*/
+
+.outline-orange-btn {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border-color: var(--orange-color);
+  font-weight: medium;
+  width: fit-content;
+}
+.outline-orange-btn:hover {
+  background-color: var(--orange-color);
+  border-color: var(--orange-color);
+  color: white;
+}
+
+.view-more-btn {
+  text-decoration: none;
+  color: var(--orange-color);
+  font-weight: medium;
+}
